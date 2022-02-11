@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <!-- Tabela simples -->
+    <h2>Tabela simples</h2>
+    <table style="text-align: center; width: 100%;border-style:double">
+        <tr>
+            <td>Ulisses</td>
+            <td>HTML</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Anna</td>
+            <td>HTML</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <!-- Tabela com Titulo -->
+    <h2>Tabela com Titulo</h2>
+    <table style="text-align: center; width: 100%;border-style:double">
+        <tr>
+            <th>Aluno</th>
+            <th>Disciplina</th>
+            <th>Nota</th>
+        </tr>
+        <tr>
+            <td>Ulisses</td>
+            <td>HTML</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <!-- Tabela com cabeçalho e rodape -->
+    <h2>Tabela com cabeçalho e rodapé</h2>
+    <table style="text-align: center; width: 100%;border-style:double">
+        <thead>
+            <tr>
+                <th>Mês</th>
+                <th>Horas/Aula</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Junho</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Junho</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>70</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- tabela com colspan -->
+    <h2>tabela com colspan</h2>
+    <table style="text-align: center; width: 100%;border-style:double">
+        <tr>
+            <th>Aluno</th>
+            <th colspan="2">Disciplina</th>
+        </tr>
+        <tr>
+            <td>Ulisses</td>
+            <td>HTML</td>
+            <td>Ambiente Web</td>
+        </tr>
+    </table>
+
+    <!-- tabela com rolspan -->
+    <h2>tabela com rolspan</h2>
+    <table style="text-align: center; width: 100%;border-style:double">
+        <tr>
+            <th>Aluno</th>
+            <td>Ulisses</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Disciplinas:</th>
+            <td>HTML</td>
+        </tr>
+        <tr>
+            <td>Ambiente Web</td>
+        </tr>
+    </table>
+</body>
+</html>
