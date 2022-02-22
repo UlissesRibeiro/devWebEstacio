@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="exibe_resultado"> Resultado da Multiplicação:  </div>
+</body>
+<script type="text/javascript">
+/*no exempli abaixo temos a declação da variavel, com seu valor atribuido
+e por fim um alert que vai ser exibido na tela com o resultado*/
+var variavel;  
+    variavel = 3 + 3; 
+        alert(variavel); 
+          
+/*nesse outro exemplo, temos o uso de funções para ser exibido
+dentro do codigo html da pagina*/
+var resultadoMultiplicacao = multiplique(10, 50); 
+
+var divLocal = document.getElementById('exibe_resultado');
+
+    divLocal.innerHTML += resultadoMultiplicacao;
+
+
+function multiplique(numero1, numero2){
+    var resultado = 0; 
+        resultado = numero1 * numero2;
+        
+        return resultado;
+
+        }
+        
+</script>
+</html>
